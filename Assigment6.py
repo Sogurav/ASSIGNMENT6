@@ -1,24 +1,22 @@
 roll=int(input("Enter roll no:"))
 name=input("Enter name :")
-d={
+ds={
    "roll no":roll,
    "name":name
  }
 # Lists
-l = []
+l= []
  
 # Adding Element into list
-l.append(5)
-l.append(10)
-print("Adding 5 and 10 in list", l)
+l.append(ds)
+print(l)
  
 # Set
 s = set()
  
 # Adding element into set
-s.add(5)
-s.add(10)
-print("Adding 5 and 10 in set", s)
+s.add(l)
+print(s)
  
 # Tuple
 t = tuple(l)
@@ -27,8 +25,8 @@ t = tuple(l)
 d= {}
  
 # Adding the key value pair
-d[5] = "Five"
-d[10] = "Ten"
+
+d[s]
 print("Dictionary", d)
  
 d["key"]="val"
